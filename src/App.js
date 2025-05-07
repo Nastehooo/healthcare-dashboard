@@ -123,7 +123,7 @@ const App = () => {
           <div className="modal" onClick={(e) => e.stopPropagation()}>
             <h2>About the English Longitudinal Study of Ageing (ELSA)</h2>
             <p>
-              The **English Longitudinal Study of Ageing (ELSA)** tracks health, financial, and social trends
+              The English Longitudinal Study of Ageing (ELSA) tracks health, financial, and social trends
               among older adults in England. This dashboard visualizes various aspects of ELSA data, including
               health metrics, blood pressure, wealth, and more.
             </p>
