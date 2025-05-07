@@ -1,0 +1,93 @@
+/* Tooltip Style */
+.tooltip {
+  font-family: "Comfortaa", cursive;
+  font-size: 12px;
+  border-radius: 4px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  pointer-events: none;
+  position: absolute;
+  z-index: 10;
+}
+
+/* Grid Styling */
+.grid line {
+  stroke: #ddd;
+  stroke-opacity: 1;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+/* Container for both slider and button */
+.slider-container {
+  display: flex;
+  align-items: center; /* Vertically center the elements */
+  justify-content: flex-start; /* Align items to the left */
+  gap: 20px; /* Add space between the button and the slider */
+  margin: 30px auto 20px auto;
+  width: 90%;
+  text-align: center;
+}
+
+/* Play Button */
+.play-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+  background-color: #21CBF3;
+}
+
+/* Slider Container */
+.wave-slider-container {
+  flex: 1; /* Make the slider take up the remaining space */
+}
+
+/* Override noUiSlider Style */
+.nouislider-bar .noUi-target {
+  background: linear-gradient(to right, #2196F3, #21CBF3);
+  border-radius: 20px;
+  height: 20px;
+}
+
+.noUi-connect {
+  background: #2196F3;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 30px;
+  height: 30px;
+  top: -10px;
+  background: white;
+  border: 4px solid #2196F3;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.noUi-horizontal .noUi-handle:hover {
+  transform: scale(1.5);
+}
+
+/* Pips/Labels */
+.noUi-value {
+  font-family: "Comfortaa", cursive;
+  font-size: 12px;
+  color: #333;
+}
+
+.noUi-marker {
+  background: #2196F3;
+}
