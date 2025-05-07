@@ -169,7 +169,7 @@ const App = () => {
               over time. It plays continuously and updates the visuals across all waves, helping to track changes
               in these factors over time.
             </p>
-            <h5>Interactive Features of the Map</h5>
+            <h5>Interactive Features of the Gapminder</h5>
             <ul>
               <li><strong>Play Button:</strong> You can use the play button to animate the map over time. This will automatically show how hearing aid usage has evolved across different years. The map will cycle through the selected waves to give a dynamic view of the data.</li>
               <li><strong>Slider:</strong> You can also use the slider to manually drag through the years and examine how hearing aid usage varies across the selected waves year by year. This provides a more controlled way to explore the data.</li>
