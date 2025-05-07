@@ -161,11 +161,7 @@ const App = () => {
               This map visualizes hearing aid usage across different regions in the UK. You can select multiple waves
               to compare how hearing aid usage has changed over time. The map will update based on the waves you choose.
             </p>
-            <h5>Interactive Features of the Map</h5>
-            <ul>
-              <li><strong>Play Button:</strong> You can use the play button to animate the map over time. This will automatically show how hearing aid usage has evolved across different years. The map will cycle through the selected waves to give a dynamic view of the data.</li>
-              <li><strong>Slider:</strong> You can also use the slider to manually drag through the years and examine how hearing aid usage varies across the selected waves year by year. This provides a more controlled way to explore the data.</li>
-            </ul>
+            
 
             <h4>4. Wealth & Health (Gapminder-style Animation)</h4>
             <p>
@@ -173,6 +169,11 @@ const App = () => {
               over time. It plays continuously and updates the visuals across all waves, helping to track changes
               in these factors over time.
             </p>
+            <h5>Interactive Features of the Map</h5>
+            <ul>
+              <li><strong>Play Button:</strong> You can use the play button to animate the map over time. This will automatically show how hearing aid usage has evolved across different years. The map will cycle through the selected waves to give a dynamic view of the data.</li>
+              <li><strong>Slider:</strong> You can also use the slider to manually drag through the years and examine how hearing aid usage varies across the selected waves year by year. This provides a more controlled way to explore the data.</li>
+            </ul>
 
             <button className="close-button" onClick={() => setShowModal(false)}>Close</button>
           </div>
